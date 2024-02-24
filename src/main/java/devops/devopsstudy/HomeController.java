@@ -10,8 +10,6 @@ public class HomeController {
 
     @GetMapping("/")
     public String test(){
-        log.info("로그을 남기고 커밋하기");
-        log.info("로그을 남기고 커밋하기");
         return "hello jenkins";
     }
 }
