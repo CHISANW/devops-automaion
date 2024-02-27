@@ -10,6 +10,7 @@ public class HomeController {
 
     @GetMapping("/")
     public String test(){
+        log.info("웹훅 테스트");
         return "hello jenkins Docker Study";
     }
 }
